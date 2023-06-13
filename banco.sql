@@ -3,7 +3,7 @@ create database lista5;
 use lista5;
 
 create table agenda
-{
+(
     id_agenda int        not null auto_increment,
     nome varchar(50)     not null,
     apelido varchar(40)  not null,
@@ -18,4 +18,4 @@ create table agenda
     img varchar(100)    null,
     primary key(id_agenda)
 
-}
+);
